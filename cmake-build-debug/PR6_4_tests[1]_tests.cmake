@@ -1,0 +1,7 @@
+add_test([=[FindTheLargest.PositiveNumbers]=]  [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug/PR6_4_tests]==] [==[--gtest_filter=FindTheLargest.PositiveNumbers]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FindTheLargest.PositiveNumbers]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Sum.PositiveNumbers]=]  [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug/PR6_4_tests]==] [==[--gtest_filter=Sum.PositiveNumbers]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Sum.PositiveNumbers]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Sort.PositiveNumbers]=]  [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug/PR6_4_tests]==] [==[--gtest_filter=Sort.PositiveNumbers]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Sort.PositiveNumbers]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_4_rec/cmake-build-debug]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  PR6_4_tests_TESTS FindTheLargest.PositiveNumbers Sum.PositiveNumbers Sort.PositiveNumbers)
